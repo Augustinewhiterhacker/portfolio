@@ -1,0 +1,501 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    list-style: none;
+    text-decoration: none;
+    
+}
+@media screen and (min-width:50px) {
+   
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    /*padding: 25px 7%;*/
+    
+}.navbar{
+    display: flex;
+    height: 50px;
+    float: right;
+    margin-top: -40px;
+   
+  
+}
+.navbar li{
+    position: relative;
+}
+.navbar a{
+    color: #161616;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 10px 20px ;
+    text-decoration: none;
+}
+.navbar a::after{
+    content: '';
+    position: absolute;
+    width:  0;
+    height: 2px;
+    background: #ef0454;
+    left: 0px;
+    bottom:-4px;
+    transition: ease .42S;
+
+
+}
+.navbar a:hover::after{
+    width: 90%;
+}
+#menu{
+    font-size: 30px;
+    color: #161616;
+    cursor: pointer;
+    z-index: 1001;
+    display: none;
+}
+.photo{
+    float: right;
+    background-color: aqua;
+    width: 50%;
+}
+
+.text{
+    float: left;
+    background-color: white;
+    width: 40%;
+    margin-top:-100px;
+    padding: 200PX;
+    margin-left: -100px;
+    font-size: 20px;
+ 
+}
+.slide{
+   margin-left: -20px;
+}
+.text1{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    margin-top: -100px;
+    margin-left: -20px;
+   
+    
+}
+.name{
+  font-size: 80px;
+}
+.one{
+    background-color: #E4EB14;
+    width: 70px;
+    text-align: center;
+}
+.two{
+    margin-left: 5px;
+}
+.last{
+    display: flex;
+    font-size: 30px;
+   
+}
+.dev{
+    margin-left: 5px;
+    color: #FF1493;
+}
+.rondjaune{
+    background-color: #E4EB14;
+    width: 100px;
+    height: 100px;
+    margin-top: -400px;
+    margin-left: 650px;
+    border-radius: 50px;
+  
+  }
+  .rondjaune_1{
+    background-color:  #E4EB14;
+    width: 80px;
+    height: 80px;
+   
+    margin-left: 200px;
+    border-radius: 50px 50px 50PX 50px;
+  
+  }
+
+.rondrose{
+    background-color: #FF1493;
+    border-radius: 300px;
+    width: 400px;
+    height: 400px;
+    margin-top: -40px;
+   margin-left: 400px;   
+}
+.moi{
+   width: 170px;
+   height: 420px;
+   margin-left: 100px;
+   margin-top: -30px;
+}
+.text2{
+   padding: 100px;
+   margin: 100px;
+   font-size: 30px;
+   margin-top: -60px;
+}
+.download{
+    float: right;
+    width: 200px;
+    height: 50px;
+    margin-top: 150px;
+    margin-right: 300px;
+    background-color: #FF1493; 
+    border-radius: 10px; 
+}
+.img{
+   width: 40px; 
+   margin-left: 130px;
+   margin-top: -60px;
+
+   
+}
+.load{
+   margin-top: 15px;
+   color: aliceblue;
+   text-decoration: none;
+}
+.taoko{
+   font-size: 50px;
+}
+.section1{
+    background-color: #FF1493;
+     width: 20%;
+     padding: 150PX;
+     margin-top: 60px;
+     height: 200px;
+     border-radius: 0px 0px 1000px 0px;
+     
+ }
+ .section2{
+    width: 100%;
+    box-shadow: 5px 5px 5px 5px #FF1493;
+    border-radius: 20px;
+    height: 400px;
+    margin-top: 300px;
+ }
+ .section3{
+    width: 95%;
+    background-color: azure;
+    height: 600px;
+    margin: 30px;
+    padding: 10px;
+ }
+ .html{
+    width: 200px;
+    height: 5px;
+    background-color: #FF1493;
+ }
+ .css{
+    width: 180px;
+    height: 5px;
+    background-color: #E4EB14;
+ }
+ .js{
+    width: 150px;
+    height: 5px;
+    background-color: #161616;
+ }
+ .front{
+    display: flex;
+    margin-left: 150px;
+    margin-top: -12px;
+ }
+ .html1{
+    width: 13px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #FF1493;
+ }
+ .css1{
+    width: 13px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #E4EB14;
+ }
+ .js1{
+    width: 13px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #161616;
+ }
+ .front1{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    margin-left: -200px;
+    justify-content: space-around;
+ }
+ .php{
+    width: 200px;
+    height: 5px;
+    background-color: #FF1493;
+ }
+ .python{
+    width: 180px;
+    height: 5px;
+    background-color: #E4EB14;
+ }
+ .back{
+    display: flex;
+    margin-left: 150px;
+    margin-top: -12px;
+ }
+ .php1{
+    width: 13px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #FF1493;
+ }
+ .python1{
+    width: 13px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #E4EB14;
+ }
+ .back1{
+    display: flex;
+    margin: 35px;
+    padding: 20px;
+    margin-left: -350px;
+    justify-content: space-around;
+ }
+ 
+ .adobe{
+    width: 200px;
+    height: 5px;
+    background-color: #E4EB14;
+ }
+ .photoshop{
+    width: 180px;
+    height: 5px;
+    background-color: #161616;
+ }
+ .design{
+    display: flex;
+    margin-left: 150px;
+    margin-top: -12px;
+ }
+ .adobe1{
+    width: 13px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #E4EB14;
+ }
+ .photoshop1{
+    width: 13px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #161616;
+ }
+ .design1{
+    display: flex;
+    margin: 35px;
+    padding: 20px;
+    margin-left: -350px;
+    justify-content: space-around;
+ }
+ .section4{
+    width: 95%;
+    background-color: floralwhite;
+    height: 500px;
+    margin: 30px;
+    padding: 10px;
+ }
+
+.project1{
+   display: flex;
+   justify-content: space-around;
+}
+.imgproject{
+   width: 200px;
+   height: 200px;
+   padding: 10px;
+}
+.label,h2{
+   padding: 10px;
+}
+.label{
+   width: 200px;
+   height: 50px;
+   background-color: #FF1493;
+   color: white;
+   text-align: center;
+}
+ 
+.contenu{
+   width: 200px;
+    height: 300px;
+    border: 1px solid #FF1493;
+}
+.section5{
+   width: 700px;
+   height: 900px;
+}
+.contact1{
+   width: 700px;
+   height: 500px;
+   background-color: #FF1493;
+   opacity: 0.3;
+   margin: 200px;
+}
+.contact1{
+   box-shadow: 10px 10px 10px black;
+}
+.contact2{
+   width: 700px;
+   height: 500px;
+   background-color: #FF1493;
+   opacity: 0.2;
+   margin-left: 250px;
+   margin-top: -650px;
+}
+.contact3{
+   margin: 50px;
+   opacity: 1;
+   padding: 10px;
+   width: 500px;
+   height: 400px;
+   margin-top: -500px;
+   margin-left: 300px;
+}
+input{
+   width: 350px;
+   height: 50px;
+   border-radius: 10px;
+   opacity: none;
+   padding: 5px;
+   color: #161616;
+}
+@media (max-width: 500px){
+   .section1{
+      
+    background-color: #FF1493;
+    width: 15%;
+    padding: 10PX;
+    margin-top: 60px;
+    height: 100px;
+    border-radius: 0px 0px 800px 0px;
+   }
+   .text{
+      margin-left: -190px;
+   }
+   .rondrose{
+      width: 200px;
+       height: 200px;
+       
+    background-color: #FF1493;
+    border-radius: 300px;
+    margin-top: -350px;
+   margin-left: 200px;   
+   }
+   .moi{
+   width: 50px;
+   height: 70px;
+   margin-left: 70px;
+   margin-top: -30px;
+   }
+}
+   .rondjaune{
+      background-color: #E4EB14;
+      width: 50px;
+      height: 50px;
+      margin-top: -200px;
+      margin-left: 350px;
+      border-radius: 50px;
+    
+    }
+    .rondjaune_1{
+      background-color:  #E4EB14;
+      width: 30px;
+      height: 30px;
+     
+      margin-left: 150px;
+      border-radius: 50px 50px 50PX 50px;
+    
+    }
+   .name{
+      font-size: 50px;
+   }
+   .text1{
+      font-size: 20px;
+   }
+   .one{
+      background-color: #E4EB14;
+      width: 65px;
+      text-align: center;
+      font-size: 20px;
+  }
+  .two{
+      margin-left: 5px;
+  }
+   .last{
+      font-size: 20px;
+   }
+
+   .section2{
+      width: 100%;
+      box-shadow: 5px 5px 5px 5px #FF1493;
+      border-radius: 20px;
+      height: 400px;
+      margin-top: 200px;
+      justify-content: center;
+   }
+   .download{
+      float: right;
+      width: 200px;
+      height: 50px;
+      margin-top: 150px;
+      margin-right: 300px;
+      background-color: #FF1493; 
+      border-radius: 10px; 
+  }
+  .img{
+     width: 40px; 
+     margin-left: 130px;
+     margin-top: -60px;
+  
+     
+  }
+  .load{
+     margin-top: 15px;
+     color: aliceblue;
+     text-decoration: none;
+  }
+  .taoko{
+   font-size: 50px;
+}
+.section2{
+   width: 100%;
+   box-shadow: 5px 5px 5px 5px #FF1493;
+   border-radius: 20px;
+   height: 400px;
+   margin-top: 300px;
+}
+   
+}
+
+
+
+
+
+
+
+
+
